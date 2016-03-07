@@ -1,4 +1,4 @@
-default all
+default: all
 
 IMAGE_NAME := omega-repo
 CONTAINER_NAME := omega-repo
@@ -10,4 +10,4 @@ build:
 	docker build -t "$(IMAGE_NAME)" .
 
 run:
-	docker run --net=host --name="$(CONTAINER_NAME)" $(IMAGE_NAME)
+	docker run -d --net=host --name="$(CONTAINER_NAME)" $(IMAGE_NAME)
