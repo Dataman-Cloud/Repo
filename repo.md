@@ -107,8 +107,8 @@
   * 将 rpm 文件拷贝到对应的目录下
   * 初始化 repodate 信息
    ```
-    createrepo -p -d -o yum/centos/7/i386 yum/centos/5/i386 yum/centos/7/i386 yum/centos/5/i386
-    createrepo -p -d -o yum/centos/7/x86_64 yum/centos/5/x86_64 yum/centos/7/x86_64 yum/centos/5/x86_64
+    createrepo -p -d -o yum/centos/7/i386 yum/centos/5/i386 
+    createrepo -p -d -o yum/centos/7/x86_64 yum/centos/5/x86_64 
    ```
  3. 使用自检 repo 源安装程序
   * 修改本地配置文件 在本地 * /etc/yum.repos.d * 新建一个配置文件以 * .repo * 结尾 内容大致如下
