@@ -10,6 +10,6 @@ ADD ./nginx/sites-available/default /etc/nginx/sites-available/
 ADD ./deb/conf/ /var/repositories/
 ADD ./deb/packages/ /var/repositories/
 ADD ./yum /var/repositories/
-
+ADD ./build.sh /build.sh
 
 CMD ["/build.sh"]
