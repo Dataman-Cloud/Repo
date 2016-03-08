@@ -129,7 +129,7 @@
   
   * 运行 * yum repolist * 就可以看到我们自定的repo 源了
 
-  [apt-get 文档参考] (https://www.digitalocean.com/community/tutorials/how-to-use-reprepro-for-a-secure-package-repository-on-ubuntu-14-04)
+  [apt-get 文档参考] (https://www.digitalocean.com/community/tutorials/how-to-use-reprepro-for-a-secure-package-repository-on-ubuntu-14-04) </br>
   [yum 文档参考] (http://www.xuebuyuan.com/1385625.html)
   
 
